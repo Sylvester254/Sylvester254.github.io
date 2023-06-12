@@ -1,0 +1,7 @@
+- name: Flask
+  percentage: 90
+  color: info
+
+- name: Django
+  percentage: 60
+  color: success

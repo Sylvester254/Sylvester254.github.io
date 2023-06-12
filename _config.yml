@@ -1,0 +1,89 @@
+### Site Settings ###
+title               : Computer Technologist
+description         : >-
+                      Life is like a Git repository. Yesterday is a commit we cannot change, but the branch we checkout today is up to us!
+baseurl             : "" 
+
+repository          : Sylvester254/Sylvester254.github.io 
+remote_theme        : YoussefRaafatNasry/portfolYOU
+open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+### Author Info ###
+author:
+  name              : Sylvester Kiranga
+  image             : /images/sly.JPG
+#  behance           : your_username
+# dribbble          : your_username
+  email             : slynganga59@gmail.com
+#  facebook          : your_username
+  github            : Sylvester254
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : Sylvester Kiranga
+  medium            : Slynganga
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : KirangaSilver
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+### Disqus ###
+disqus:
+  shortname: IamSly                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"

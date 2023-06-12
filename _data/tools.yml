@@ -1,0 +1,7 @@
+- name: MySQL
+  percentage: 90
+  color: danger
+
+- name: Git
+  percentage: 90
+  color: info

@@ -1,0 +1,23 @@
+- name: Python
+  percentage: 90
+  color: danger
+
+- name: HTML/CSS
+  percentage: 80
+  color: info
+
+- name: C
+  percentage: 70
+  color: secondary
+
+- name: JavaScript
+  percentage: 65
+  color: warning
+
+- name: Java
+  percentage: 50
+  color: success
+
+- name: PHP
+  percentage: 50
+  color:
