@@ -6,13 +6,13 @@
   percentage: 80
   color: info
 
+- name: JavaScript
+  percentage: 70
+  color: warning
+
 - name: C
   percentage: 70
   color: secondary
-
-- name: JavaScript
-  percentage: 65
-  color: warning
 
 - name: Java
   percentage: 50

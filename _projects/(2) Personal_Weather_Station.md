@@ -5,12 +5,13 @@ image: /images/pws/img.png
 description: This project is a personal weather station that uses a Raspberry Pi Pico W and several weather sensors.
 ---
 
-# Personal Weather Station(PWS)
+<h1 style="font-family: Georgia;">Personal Weather Station(PWS)</h1>
 
+---
 This project is a personal weather station that uses a `Raspberry Pi Pico W` and several sensors including a `raindrop sensor`, `BMP180`, and `DHT22`. The weather station monitors various weather parameters including rainfall, temperature, humidity, pressure, and altitude. This project enables the user to collect real-time weather data and provides an opportunity to analyze and understand the local weather patterns in detail.
 
 ### How it works: 
-- The PWS connects to a WiFi network,
+- The PWS connects to a Wi-Fi network,
 - reads data from the sensors,
 - performs some processing on the raw data,
 - uploads the data to Weather Underground,

@@ -5,3 +5,7 @@
 - name: Django
   percentage: 60
   color: success
+
+- name: Bootstrap
+  percentage: 70
+  color: secondary
