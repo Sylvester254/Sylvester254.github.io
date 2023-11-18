@@ -1,18 +1,18 @@
-- title: Student, Maseno University, Kisumu
+- title: Bachelor of Science in Computer Technology, Maseno University, Kisumu
   from: 2019
   to: 2023
-  description: Just completed my Bachelor of Science in Computer Technology at Maseno University,
-               with an expected graduation date of December 2023.
+  description: Did my Bachelor of Science in Computer Technology, achieving a Second Class Upper Division.
+                This degree classification underlines my commitment to academic excellence and proficiency in computer technology.
 
 - title: Software Engineer, ALX-Africa, Remote
   from: 2022
   to: 2023
   description: Completed a certificate program in Software Engineering,
                gaining expertise in full-stack software development, C programming,
-                JavaScript, Unix programming, data structures and algorithms,
-                reverse engineering and security, Python Flask frameworks, databases, and DevOps.
-                
-- title: Student, Kimunyu Boys, Kiambu
+               JavaScript, Unix programming, data structures and algorithms,
+               reverse engineering and security, Python Flask frameworks, databases, and DevOps.
+
+- title: Secondary Education, Kimunyu Boys, Kiambu
   from: 2014
   to: 2018
-  description:  I did my 4 years Secondary education and attained grade B minus in my K.C.S.E examinations.
+  description: Completed 4 years of Secondary education and attained a grade B minus in the K.C.S.E examinations.

@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col mt-4">
+    <div class="timeline-body bg-themed">
+      {% if site.data.career %}
+        {% for item in site.data.career %}
+          <div class="timeline-item">
+            <div class="content">
+              <h2>{{ item.title }}, {{ item.company }}</h2>
+              <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+              <ul>
+                {% for point in item.description %}
+                  <li>{{ point }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</div>

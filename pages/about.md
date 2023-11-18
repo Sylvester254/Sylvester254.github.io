@@ -53,3 +53,8 @@ Being an avid follower of technology trends, I have a particular interest in Sof
 <div class="row">
 {% include about/timeline.html%}
 </div>
+
+<h1 style="font-family: Georgia;">Career</h1>
+<div class="row">
+{% include about/career.html%}
+</div>

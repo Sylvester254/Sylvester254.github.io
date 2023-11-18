@@ -1,0 +1,20 @@
+- title: Freelance Software Developer
+  company: Truelancer
+  from: 2023
+  to: Present
+  description:
+    - "Created template tools that can generate well-formatted printable books and ebooks using Python and open source libraries like Reportlab and Ebooklib."
+    - "Built a books management database system using MySQL and Sphinx Search and also a Flask application to perform CRUD operations."
+    - "Implemented multiple web scraping scripts using Selenium WebDriver and Requests for downloading images and data in various formats like JSON and also storing in a database."
+    - "Integrating various APIs i.e., Stripe, Spotify, Printful, GoogleOAuth, FacebookOAuth, StabilityAI, OpenAI, etc., into Web applications."
+    - "Developed more software, some are listed in my portfolio."
+- title: Intern
+  company: Ministry of Interior and Coordination of National Government
+  from: July 2022
+  to: September 2022
+  description:
+    - "Provided essential technical support in a department primarily staffed with non-IT personnel, facilitating smooth daily operations and enhancing overall technical literacy."
+    - "Identified and resolved technical issues, demonstrating strong problem-solving skills and a deep understanding of various software and hardware systems."
+    - "Played a key role in training and guiding staff on the effective use of technology, improving departmental efficiency and technical competence."
+    - "Assisted in the maintenance and updating of internal systems, ensuring optimal performance and reliability."
+    - "Contributed to various IT projects, offering technical insights and support that were crucial for their successful completion."
