@@ -49,12 +49,12 @@ Being an avid follower of technology trends, I have a particular interest in Sof
     </ul>
 </p>
 
+<h1 style="font-family: Georgia;">Experience</h1>
+<div class="row">
+{% include about/career.html%}
+</div>
+
 <h1 style="font-family: Georgia;">Education</h1>
 <div class="row">
 {% include about/timeline.html%}
-</div>
-
-<h1 style="font-family: Georgia;">Career</h1>
-<div class="row">
-{% include about/career.html%}
 </div>

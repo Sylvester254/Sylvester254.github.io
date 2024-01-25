@@ -19,6 +19,8 @@ This project simplifies the task of cataloging products and their prices from im
    - **What it does:** Users can upload images of price tags or provide paths to images or folders containing such images.
    - **Why it's important:** This step allows users to input the data that needs to be analyzed.
 
+![preview](/images/ocr/img0.png)
+
 #### 2. **Reading Text from Images**
    - **What it does:** The project scans the images and identifies any text present, such as product names and prices.
    - **Why it's important:** This step converts visual information (price tags) into textual data that can be easily processed and stored.
@@ -27,9 +29,13 @@ This project simplifies the task of cataloging products and their prices from im
    - **What it does:** The identified text is organized to separate item names and their corresponding prices.
    - **Why it's important:** This step ensures that the data is structured and easy to understand.
 
+![preview](/images/ocr/img1.png)
+
 #### 4. **Storing Data**
    - **What it does:** The organized data is stored in Airtable, an online platform that combines the simplicity of a spreadsheet with the robustness of a database.
    - **Why it's important:** This allows users to easily access, modify, and share the data.
+
+![preview](/images/ocr/img2.png)
 
 #### 5. **Downloading Data**
    - **What it does:** Users can download the extracted data as a CSV file, which can be opened in spreadsheet software like Microsoft Excel or Google Sheets.
@@ -39,7 +45,6 @@ This project simplifies the task of cataloging products and their prices from im
 
 To use this project, simply navigate to the provided web interface, upload or select the images you want to process, and let the tool do the rest. Once processed, you can view the results and download the data as a CSV file.
 
-![preview](/images/ocr/img1.png)
 
 ### Conclusion
 

@@ -1,8 +1,8 @@
 ### Site Settings ###
-title               : Computer Technologist
+title               : Computer Technologist | Software Developer
 description         : >-
                       Life is like a Git repository. Yesterday is a commit we cannot change, but the branch we checkout today is up to us!
-baseurl             : "" 
+baseurl             : ""
 
 repository          : Sylvester254/Sylvester254.github.io 
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -22,7 +22,7 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : Sylvester Kiranga
+  name              : Sylvester Kiranga Ng'ang'a
   image             : /images/android-chrome-512x512.png
 #  behance           : your_username
 # dribbble          : your_username
