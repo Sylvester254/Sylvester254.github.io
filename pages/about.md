@@ -7,10 +7,10 @@ weight: 3
 
 <h1 style="font-family: Georgia;">About Me</h1>
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
+Hi, I am **{{ site.author.name }}** :wave:,<br>
 A Computer Technologist with a knack for developing innovative technology solutions. I have always harbored a passion for technology, a trait that is reflected in my academic and professional journey.
 
-I just completed a 4-year course in Bachelor of Science degree in Computer Technology from Maseno University, a prestigious institution in Kisumu, Kenya. In addition, I completed a comprehensive Software Engineering program from ALX Africa, where I honed my full-stack software development skills and gained proficiency in numerous programming languages like C, Python, HTML, CSS, and JavaScript.
+I completed a 4-year course in Bachelor of Science degree in Computer Technology from Maseno University, a prestigious institution in Kisumu, Kenya. In addition, I completed a comprehensive Software Engineering program from ALX Africa, where I honed my full-stack software development skills and gained proficiency in numerous programming languages like C, Python, HTML, CSS, and JavaScript.
 
 My love for technology extends beyond the classrooms; I have participated in Software Development Hackathon challenges and developed effective solutions, like a missing children search tool, which is currently being incubated into the Children Protection Information Management System (CPIMS).
 
