@@ -23,8 +23,9 @@ Being an avid follower of technology trends, I have a particular interest in Sof
 <h1 style="font-family: Georgia;">Skills</h1>
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
+{% include about/skills.html title="Languages" source=site.data.languages %}
 {% include about/skills.html title="Frameworks" source=site.data.frameworks %}
+{% include about/skills.html title="Databases" source=site.data.databases %}
 </div>
 
 

@@ -1,6 +1,6 @@
 - name: Flask
   percentage: 90
-  color: info
+  color: primary
 
 - name: Django
   percentage: 60
@@ -9,3 +9,7 @@
 - name: Bootstrap
   percentage: 70
   color: secondary
+
+- name: FastAPI
+  percentage: 50
+  color: warning

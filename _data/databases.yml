@@ -1,0 +1,15 @@
+- name: SQL
+  percentage: 90
+  color: primary
+
+- name: Firebase(Realtime DB)
+  percentage: 70
+  color: success
+
+- name: Airtable
+  percentage: 70
+  color: secondary
+
+- name: Supabase
+  percentage: 60
+  color: warning
