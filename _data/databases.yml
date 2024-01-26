@@ -1,4 +1,4 @@
-- name: SQL
+- name: MySQL
   percentage: 90
   color: primary
 
