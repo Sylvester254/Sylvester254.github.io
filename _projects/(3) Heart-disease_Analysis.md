@@ -8,6 +8,14 @@ description:
 <h1 style="font-family: Georgia;">Heart Disease Dataset Analysis</h1>
 
 ---
+
+{% capture carousel_images %}
+/images/hdda/img2.png
+/images/hdda/img3.png
+/images/hdda/img4.png
+{% endcapture %}
+{% include elements/carousel.html %}
+
 This is a Command line Interface project designed to perform exploratory data analysis and advanced analysis on the "Heart Disease UCI" dataset. The user can choose to clean the data, explore the data, or perform advanced analysis on the data.
 
 ## Understanding Heart Disease through Data
@@ -39,13 +47,6 @@ Here, we delve into a dataset about heart disease to uncover patterns and make p
 ## Why This Matters
 
 Understanding heart disease is crucial as it is one of the leading causes of death worldwide. By analyzing data, we can gain insights into the factors that contribute to heart disease and work towards better prevention and treatment strategies.
-
-*demo*
-![preview](/images/hdda/img2.png)
-
-![preview](/images/hdda/img3.png)
-
-![preview](/images/hdda/img4.png)
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/Sylvester254/Heart_Disease_dataset-analysis" text="Learn More" %}

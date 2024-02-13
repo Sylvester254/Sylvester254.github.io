@@ -1,17 +1,17 @@
 ---
-name: BookMaker
+name: Automated BookMaker
 tools: [Python, Reportlab, Pillow, Ebooklib, HTML, CSS]
 image: 
 description: Python-Powered PDF & Ebook Creation Tool
 ---
 
-<h1 style="font-family: Georgia;">BookMaker</h1>
+<h1 style="font-family: Georgia;">Automated BookMaker</h1>
 
 ---
 
 ## Overview
 
-BookMaker is a Python-based tool designed to streamline the book publication process by automatically generating well-formatted printable PDF books and ebooks. It leverages open-source libraries to create professional, US Royal size books complete with preface pages, title pages, content pages, and closing pages. The tool also generates a matching cover page and a spine that adjusts its width according to the book's page count. This automation makes book publication efficient, allowing for the rapid creation of print-ready and e-book formats suitable for platforms like Amazon.
+Automated BookMaker is a Python-based tool designed to streamline the book publication process by automatically generating well-formatted printable PDF books and ebooks. It leverages open-source libraries to create professional, US Royal size books complete with preface pages, title pages, content pages, and closing pages. The tool also generates a matching cover page and a spine that adjusts its width according to the book's page count. This automation makes book publication efficient, allowing for the rapid creation of print-ready and e-book formats suitable for platforms like Amazon.
 
 --- 
 

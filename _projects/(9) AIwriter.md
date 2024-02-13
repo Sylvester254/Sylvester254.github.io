@@ -1,7 +1,7 @@
 ---
 name: AI Writer - Chrome Extension
 tools: [JavaScript, Flask, Stripe API, GPT-3 API, Google OAuth]
-image: /images/extension/img4.png
+image: /images/extension/aiwriter02.png
 description: AI Writer is a powerful Chrome extension designed to enhance your writing experience.
 ---
 
@@ -9,13 +9,21 @@ description: AI Writer is a powerful Chrome extension designed to enhance your w
 
 ---
 
+
+{% capture carousel_images %}
+/images/extension/aiwriter02.png
+/images/extension/aiwriter01.png
+/images/extension/img4.png
+{% endcapture %}
+{% include elements/carousel.html %}
+
+
 ## Overview
 
 AI Writer is a powerful Chrome extension designed to enhance your writing experience. It leverages advanced GPT-3 models to autocorrect text, fix grammar errors, and adjust the tone of your text on-the-fly. The extension also offers premium features accessible through a subscription model, ensuring a seamless and enriched user experience.
 
 ---
 
-![preview](/images/extension/aiwriter01.png)
 
 ## Features
 
@@ -38,10 +46,6 @@ AI Writer is a powerful Chrome extension designed to enhance your writing experi
 ## Usage
 
 AI Writer can be added as a Chrome extension. Once installed, users can sign up using Google OAuth and opt for premium subscriptions if desired. The extension will automatically enhance the writing experience by correcting and improving the text in real-time.
-
-![preview](/images/extension/aiwriter02.png)
-
-![preview](/images/extension/img4.png)
 
 ## Conclusion
 

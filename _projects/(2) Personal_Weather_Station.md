@@ -8,6 +8,15 @@ description: This project is a personal weather station that uses a Raspberry Pi
 <h1 style="font-family: Georgia;">Personal Weather Station(PWS)</h1>
 
 ---
+
+{% capture carousel_images %}
+/images/pws/img2.png
+/images/pws/WU.png
+/images/pws/weatherdata.png
+{% endcapture %}
+{% include elements/carousel.html %}
+
+
 This project is a personal weather station that uses a `Raspberry Pi Pico W` and several sensors including a `raindrop sensor`, `BMP180`, and `DHT22`. The weather station monitors various weather parameters including rainfall, temperature, humidity, pressure, and altitude. This project enables the user to collect real-time weather data and provides an opportunity to analyze and understand the local weather patterns in detail.
 
 ### How it works: 
@@ -18,12 +27,6 @@ This project is a personal weather station that uses a `Raspberry Pi Pico W` and
 - displays it on a webpage hosted on the Raspberry Pi server,
 - data logging the weather data into a csv file every 30 seconds,
 - displays a few lines of the stored data in another webpage.
-
-![preview](/images/pws/img2.png)
-
-![preview](/images/pws/WU.png)
-
-![preview](/images/pws/weatherdata.png)
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/Sylvester254/Personal_Weather_Station" text="Learn More" %}

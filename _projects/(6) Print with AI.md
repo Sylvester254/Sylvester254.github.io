@@ -9,11 +9,18 @@ description: A unique online platform where you can generate artistic images usi
 
 --- 
 
+{% capture carousel_images %}
+/images/printai/img1.png
+/images/printai/img5.png
+/images/printai/img2.png
+/images/printai/img3.png
+/images/printai/img4.png
+{% endcapture %}
+{% include elements/carousel.html %}
+
+
 I had the opportunity to contribute significantly as a Backend Developer in a dynamic web application project. The application is designed to offer a unique user experience, blending creative content generation with e-commerce functionality.
 My role was key in shaping the application's backend architecture, ensuring smooth performance and a user-friendly interface.
-
-![preview](/images/printai/img1.png)
-
 
 ## My Role and Responsibilities
 As a Backend Developer, my primary focus areas included:
@@ -37,17 +44,6 @@ Working in a fast-paced environment, I developed a keen sense of adaptability an
 ## User Guide
 - **Sign In**: Users can be able to sign in to the website either using email and password authentication or quite straightforwardly, their Google account or Facebook account to make things faster.
 - **Generate Images**: Here, users feed prompts that are then processed to generate unique images.
-
-![preview](/images/printai/img5.png)
-
 - **Browse and Customize Products**: Users can browse the gallery of AI-generated images and select images to be printed on various products.
-
-![preview](/images/printai/img2.png)
-
-![preview](/images/printai/img3.png)
-
 - **Shopping Cart**: Users can add their customized products to the cart, adjust quantities, and review their selections.
-
-![preview](/images/printai/img4.png)
-
 - **Checkout**: Finally, a user can enter their shipping address and make payments for their order. The app enables secure payment processing via Stripe, allowing users to complete their purchases safely.

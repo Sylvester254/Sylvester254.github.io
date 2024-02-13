@@ -8,10 +8,16 @@ description: Best site to enjoy music while chatting with friends.
 <h1 style="font-family: Georgia;">MusicChat</h1>
 
 ---
+
+{% capture carousel_images %}
+/images/musichat/img1.png
+/images/musichat/img3.png
+/images/musichat/img4.png
+/images/musichat/img5.png
+{% endcapture %}
+{% include elements/carousel.html %}
+
 MusicChat is a web application that allows users to listen to their favorite music while chatting with other music enthusiasts in real-time. With MusicChat, users can search for and stream their favorite music tracks from Spotify's music catalog, and communicate with others in a chatroom in real-time. The application is built using Python and Flask, and includes a database for storing user data and music data.
-
-
-![preview](/images/musichat/img1.png)
 
 
 ## Third-Party Services Used
@@ -21,11 +27,6 @@ MusicChat is a web application that allows users to listen to their favorite mus
 
 **Firebase Realtime Database:** The chatroom functionality in MusicChat is powered by Firebase Realtime Database, which enables real-time updates and communication among users. Firebase synchronizes and stores chat messages, allowing users to experience a live and engaging chat environment.
 
-![preview](/images/musichat/img3.png)
-
-![preview](/images/musichat/img4.png)
-
-![preview](/images/musichat/img5.png)
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/Sylvester254/MusicChat" text="Learn More" %}
