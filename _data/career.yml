@@ -1,11 +1,11 @@
 - title: Freelance Software Developer
-  company: Truelancer
+  company: Truelancer & Upwork
   from: 2023
   to: Present
   description:
     - "Created template tools that can generate well-formatted printable books and ebooks using Python and open source libraries like Reportlab and Ebooklib."
     - "Built a books management database system using MySQL and Sphinx Search and also a Flask application to perform CRUD operations."
-    - "Implemented multiple web scraping scripts using Selenium WebDriver and Requests for downloading images and data in various formats like JSON and also storing in a database."
+    - "Implemented multiple web scraping scripts using Selenium WebDriver and Requests for downloading images and data in various formats."
     - "Integrating various APIs i.e., Stripe, Spotify, Printful, GoogleOAuth, FacebookOAuth, StabilityAI, OpenAI, etc., into Web applications."
     - "Developed more software, some are listed in my portfolio."
 - title: Intern
