@@ -3,11 +3,11 @@
   from: 2023
   to: Present
   description:
-    - "Created template tools that can generate well-formatted printable books and ebooks using Python and open source libraries like Reportlab and Ebooklib."
-    - "Built a books management database system using MySQL and Sphinx Search and also a Flask application to perform CRUD operations."
-    - "Implemented multiple web scraping scripts using Selenium WebDriver and Requests for downloading images and data in various formats."
+    - "Built database systems using MySQL, optimized with Sphinx Search as well as Flask application for CRUD operations."
+    - "Implemented multiple web scraping scripts using Selenium WebDriver and Requests for downloading bulk data and store in various formats."
     - "Integrating various APIs i.e., Stripe, Spotify, Printful, GoogleOAuth, FacebookOAuth, StabilityAI, OpenAI, etc., into Web applications."
-    - "Developed more software, some are listed in my portfolio."
+    - "Designing templates automatically generation of well-formatted printable books and ebooks using Python libraries like Reportlab and Ebooklib."
+    - "I've developed more software solutions and some publicly available ones are outlined in my projects page."
 - title: Intern
   company: Ministry of Interior and Coordination of National Government
   from: July 2022
