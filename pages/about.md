@@ -37,13 +37,13 @@ I am constantly on the lookout for new technological advancements, with a keen i
             <img src="https://blog.kakaocdn.net/dn/cHdcEB/btq4cgTLqgs/yfqbz1JJ45lungJHKobMAK/img.png" alt="Nginx" style="height:40px; vertical-align:top; margin:4px;">
             <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" style="height:40px; vertical-align:top; margin:4px;">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1024px-PyCharm_Icon.svg.png" alt="PyCharm" style="height:40px; vertical-align:top; margin:4px;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png" alt="Jupyter" style="height:40px; vertical-align:top; margin:4px;">
+            <img src="assets/jupyter.png" alt="Jupyter" style="height:40px; vertical-align:top; margin:4px;">
             <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" alt="VS Code" style="height:40px; vertical-align:top; margin:4px;">
             <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" alt="Terminal" style="height:40px; vertical-align:top; margin:4px;">
             <img src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" alt="SQL" style="height:40px; vertical-align:top; margin:4px;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png" alt="Git" style="height:40px; vertical-align:top; margin:4px;">
+            <img src="assets/github.png" alt="Git" style="height:40px; vertical-align:top; margin:4px;">
             <img src="https://cdn-icons-png.flaticon.com/512/5969/5969184.png" alt="Raspberry Pi" style="height:40px; vertical-align:top; margin:4px;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/720px-Arduino_Logo.svg.png?20200922062315" alt="Arduino" style="height:40px; vertical-align:top; margin:4px;">
+            <img src="assets/arduino.png" alt="Arduino" style="height:40px; vertical-align:top; margin:4px;">
         </li>
     </ul>
 </p>
