@@ -36,7 +36,7 @@ I am constantly on the lookout for new technological advancements, with a keen i
             <img src="https://cdn.freebiesupply.com/logos/large/2x/windows-logo-svg-vector.svg" alt="WindowsOS" style="height:40px; vertical-align:top; margin:4px;">
             <img src="https://blog.kakaocdn.net/dn/cHdcEB/btq4cgTLqgs/yfqbz1JJ45lungJHKobMAK/img.png" alt="Nginx" style="height:40px; vertical-align:top; margin:4px;">
             <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" style="height:40px; vertical-align:top; margin:4px;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1024px-PyCharm_Icon.svg.png" alt="PyCharm" style="height:40px; vertical-align:top; margin:4px;">
+            <img src="assets/pycharm.png" alt="PyCharm" style="height:40px; vertical-align:top; margin:4px;">
             <img src="assets/jupyter.png" alt="Jupyter" style="height:40px; vertical-align:top; margin:4px;">
             <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" alt="VS Code" style="height:40px; vertical-align:top; margin:4px;">
             <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" alt="Terminal" style="height:40px; vertical-align:top; margin:4px;">
