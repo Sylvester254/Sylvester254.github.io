@@ -1,4 +1,4 @@
-# Sylvester Kiranga Ng'ang'a — Portfolio
+# Sylvester Kiranga Ng'ang'a - Portfolio
 
 [sylvester254.github.io](https://sylvester254.github.io/)
 
