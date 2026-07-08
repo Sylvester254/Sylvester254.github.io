@@ -582,6 +582,19 @@ section[id] { scroll-margin-top: 80px; }
   letter-spacing: 0.06em;
   margin-bottom: 1.2rem;
 }
+.builds-groups {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.4rem 2rem;
+}
+.build-group h4 {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  margin-bottom: 0.7rem;
+}
 .more-builds ul { display: flex; flex-direction: column; gap: 0.9rem; }
 .more-builds li { font-size: 0.94rem; border-left: 2px solid var(--border); padding-left: 1rem; }
 .more-builds li strong { font-family: var(--font-display); }
@@ -711,6 +724,18 @@ section[id] { scroll-margin-top: 80px; }
   border-radius: 50%;
   background: var(--accent);
 }
+.timeline-type {
+  display: inline-block;
+  margin-left: 0.6rem;
+  font-size: 0.64rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.08rem 0.5rem;
+  vertical-align: 0.08em;
+}
 .timeline-body h3 { font-size: 1.05rem; margin-bottom: 0.25rem; }
 .timeline-org { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.4rem; }
 .timeline-note { color: var(--text-faint); font-size: 0.88rem; max-width: 60ch; }
@@ -823,6 +848,7 @@ section[id] { scroll-margin-top: 80px; }
 @media (max-width: 900px) {
   .hero-inner { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
+  .builds-groups { grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .timeline-item { grid-template-columns: 1fr; gap: 0.4rem; }

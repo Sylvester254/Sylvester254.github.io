@@ -362,10 +362,14 @@
   }
 
   function renderMoreBuilds() {
-    const ul = document.getElementById("more-builds-list");
-    if (!ul || typeof MORE_BUILDS === "undefined") return;
-    ul.innerHTML = MORE_BUILDS.map(
-      (b) => `<li><strong>${b.name}</strong> · <span>${b.desc}</span></li>`
+    const wrap = document.getElementById("more-builds-list");
+    if (!wrap || typeof MORE_BUILDS === "undefined") return;
+    wrap.innerHTML = MORE_BUILDS.map(
+      (g) => `
+      <section class="build-group">
+        <h4>${g.group}</h4>
+        <ul>${g.items.map((b) => `<li><strong>${b.name}</strong> · <span>${b.desc}</span></li>`).join("")}</ul>
+      </section>`
     ).join("");
   }
 
@@ -375,7 +379,7 @@
     ol.innerHTML = TIMELINE.map(
       (t) => `
       <li class="timeline-item">
-        <div class="timeline-period">${t.period}</div>
+        <div class="timeline-period">${t.period}${t.type ? `<span class="timeline-type">${t.type}</span>` : ""}</div>
         <div class="timeline-body">
           <h3>${t.role}</h3>
           <p class="timeline-org">${t.org}</p>
