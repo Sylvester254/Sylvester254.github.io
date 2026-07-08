@@ -1,16 +1,12 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# Ruby Gems
-.bundle
-Gemfile.lock
-
-# Log Files
-*.log
-
-.idea
-Ignore
-/images/MOTA/Video-demo.mov
+# Local working files, never published
+.idea/
+.vscode/
+.DS_Store
 notes.md
+Ignore/
+images/
+_site/
+Gemfile.lock
+*.log
+.env
+source

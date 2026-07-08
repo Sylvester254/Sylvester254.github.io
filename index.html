@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sylvester Kiranga Nganga · Backend Software Engineer</title>
+<meta name="description" content="Backend software engineer building APIs, data infrastructure, computer vision systems, and LLM-driven tooling. Based in Nairobi, Kenya.">
+
+<link rel="icon" href="assets/favicon.ico" sizes="16x16 32x32">
+<link rel="apple-touch-icon" href="assets/logo-512x512.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo" aria-label="Sylvester Nganga, home"><img src="assets/logo-512x512.png" alt="" width="36" height="36"></a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+
+    <a class="btn btn-ghost header-cta" href="mailto:slynganga59@gmail.com">Get in touch</a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile" hidden>
+    <ul>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="mailto:slynganga59@gmail.com" class="mobile-cta">Get in touch</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section id="top" class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow"><span aria-hidden="true">$ </span>Backend Software Engineer</p>
+        <h1>I build backend systems that handle data at scale.</h1>
+        <p class="hero-sub">Four years of production Python: REST APIs, relational databases, background workers, and the batch infrastructure behind dataset pipelines, computer&#8209;vision services, and LLM&#8209;driven tooling. From a 3M&#8209;image dataset factory to a 74M&#8209;record publishing platform. Based in Nairobi, Kenya.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">View selected work</a>
+          <a class="btn btn-ghost" href="mailto:slynganga59@gmail.com">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-visual terminal" role="img" aria-label="Terminal session summarizing expertise: backend software engineer with four years across APIs, data pipelines, computer vision, LLM tooling, scraping, and infrastructure.">
+        <div class="term-bar" aria-hidden="true">
+          <span class="term-dot td-a"></span><span class="term-dot td-b"></span><span class="term-dot td-c"></span>
+          <span class="term-title">sylvester@nairobi: ~</span>
+        </div>
+        <div class="term-body" id="term-body" aria-hidden="true">
+          <p class="term-line"><span class="term-prompt">$</span><span class="term-cmd">whoami</span></p>
+          <p class="term-line term-out">sylvester_nganga · backend software engineer</p>
+          <p class="term-line"><span class="term-prompt">$</span><span class="term-cmd">ls ~/expertise</span></p>
+          <p class="term-line term-dir">apis/  data-pipelines/  computer-vision/  llm-tooling/  scraping/  infra/</p>
+          <p class="term-line"><span class="term-prompt">$</span><span class="term-cmd">uptime</span></p>
+          <p class="term-line term-out">4+ years · batch systems that run unattended for days</p>
+          <p class="term-line"><span class="term-prompt">$</span><span class="term-cmd">systemctl status batch-workers</span></p>
+          <p class="term-line term-ok">▸ active (running) · 12 workers · 0 failed jobs</p>
+          <p class="term-line"><span class="term-prompt">$</span><span class="term-cursor"></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="stats" aria-label="Scale of work">
+    <div class="wrap stats-grid">
+      <div class="stat">
+        <span class="stat-num" data-count="3" data-suffix="M+">0</span>
+        <span class="stat-label">images structured into one dataset pipeline</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="800" data-suffix="K+">0</span>
+        <span class="stat-label">public-domain images collected across 7 institutions</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="74" data-suffix="M+">0</span>
+        <span class="stat-label">literary records served by one platform</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="30" data-suffix="+ VMs">0</span>
+        <span class="stat-label">in a self-managed KVM cluster across 3 hosts</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section id="work" class="work">
+    <div class="wrap">
+      <p class="eyebrow">Selected work</p>
+      <h2>Systems I've built</h2>
+      <p class="section-note">Written at an architectural level. Client names and proprietary specifics are withheld under NDA.</p>
+
+      <div class="project-list" id="project-list"><!-- populated by JS --></div>
+
+      <div class="more-builds">
+        <h3>Smaller builds</h3>
+        <ul id="more-builds-list"><!-- populated by JS --></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="skills">
+    <div class="wrap">
+      <p class="eyebrow">Capability map</p>
+      <h2>Where the depth is</h2>
+      <p class="section-note">Self-assessed and relative to each other, not an absolute scale. Each category zooms into its sub-skills.</p>
+
+      <div class="skills-grid">
+        <div class="radar-wrap">
+          <div class="radar-head">
+            <button id="radar-back" class="radar-back" type="button" hidden><span aria-hidden="true">←</span> All skills</button>
+            <span id="radar-crumb" class="radar-crumb" tabindex="-1" aria-live="polite">All skills</span>
+          </div>
+          <svg id="radar-chart" viewBox="-30 0 380 320" role="img" aria-labelledby="radar-title radar-desc"></svg>
+          <p id="radar-hint" class="radar-hint">Click a category on the chart or in the table to zoom into its sub-skills.</p>
+          <h3 id="radar-title" class="sr-only">Skill depth by category</h3>
+          <p id="radar-desc" class="sr-only">A radar chart comparing six skill categories on a scale of one to five. Values are listed in the adjacent table.</p>
+        </div>
+
+        <div class="skills-detail">
+          <table class="skills-table">
+            <caption class="sr-only">Skill ratings out of five</caption>
+            <thead>
+              <tr><th scope="col">Category</th><th scope="col">Level</th></tr>
+            </thead>
+            <tbody id="skills-table-body"><!-- populated by JS --></tbody>
+          </table>
+
+          <div class="skill-tags" aria-label="Tools and technologies">
+            <span>Python</span><span>FastAPI</span><span>Flask</span><span>Celery</span><span>Redis</span>
+            <span>MySQL</span><span>PostgreSQL</span><span>Docker</span><span>OpenCV</span><span>MediaPipe</span>
+            <span>DeepFace</span><span>LangChain</span><span>RAG</span><span>OpenAI API</span><span>Anthropic API</span>
+            <span>Ollama</span><span>Selenium</span><span>aiohttp</span><span>PyQt5</span><span>Nginx</span>
+            <span>KVM/libvirt</span><span>Linux/Bash</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="experience">
+    <div class="wrap">
+      <p class="eyebrow">Timeline</p>
+      <h2>Experience</h2>
+      <ol class="timeline" id="timeline-list"><!-- populated by JS --></ol>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about">
+    <div class="wrap about-grid">
+      <div class="about-copy">
+        <p class="eyebrow">About</p>
+        <h2>A backend engineer with a data-heavy specialty</h2>
+        <p>I'm a software engineer based in Nairobi, Kenya. The core of my work is backend: REST APIs, relational schemas, background workers, and services built to stay up. On top of that sits an applied-AI specialty: dataset pipelines for model training, computer-vision services, and the infrastructure that keeps large batch jobs running unattended for days at a time.</p>
+        <p>Most of what I build doesn't have a UI. It's the layer underneath: schemas, queues, retry logic, checkpointing, authority resolution. The unglamorous work that decides whether a system actually holds up at scale.</p>
+
+        <dl class="about-facts">
+          <div class="fact"><dt>Location</dt><dd>Nairobi, Kenya · UTC+3</dd></div>
+          <div class="fact"><dt>Education</dt><dd>B.Sc. Computer Technology, Maseno University</dd></div>
+          <div class="fact"><dt>Certification</dt><dd>Software Engineering, ALX Africa</dd></div>
+          <div class="fact"><dt>Status</dt><dd>Open to remote roles</dd></div>
+        </dl>
+      </div>
+
+      <div class="contact-card">
+        <div class="term-bar" aria-hidden="true">
+          <span class="term-dot td-a"></span><span class="term-dot td-b"></span><span class="term-dot td-c"></span>
+          <span class="term-title">contact.sh</span>
+        </div>
+        <div class="contact-card-body">
+          <h3>Let's talk</h3>
+          <p>Open to backend, AI data infrastructure, and computer-vision engineering work.</p>
+          <ul class="contact-list">
+            <li><span class="term-prompt" aria-hidden="true">$</span> <a href="mailto:slynganga59@gmail.com">slynganga59@gmail.com</a></li>
+            <li><span class="term-prompt" aria-hidden="true">$</span> <a href="https://github.com/Sylvester254" target="_blank" rel="noopener">github.com/Sylvester254</a></li>
+            <li><span class="term-prompt" aria-hidden="true">$</span> <a href="https://www.linkedin.com/in/sylvester-kiranga-68a28220b" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a href="#top" class="logo" aria-label="Back to top"><img src="assets/logo-512x512.png" alt="" width="40" height="40"></a>
+      <p>Backend systems, data pipelines, and applied AI. Built to run unattended.</p>
+    </div>
+    <nav class="footer-col" aria-label="Footer">
+      <h4>Index</h4>
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="mailto:slynganga59@gmail.com">Email</a></li>
+        <li><a href="https://github.com/Sylvester254" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/sylvester-kiranga-68a28220b" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-base">
+    <p>© <span id="year"></span> Sylvester Kiranga Nganga</p>
+    <p class="footer-note"><a href="#top" class="footer-top">Back to top ↑</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
