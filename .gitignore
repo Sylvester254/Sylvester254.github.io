@@ -2,11 +2,7 @@
 .idea/
 .vscode/
 .DS_Store
-notes.md
-Ignore/
-images/
-_site/
-Gemfile.lock
 *.log
 .env
 source
+DEVELOPMENT.md
